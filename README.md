@@ -1,3 +1,5 @@
+This project is a Pokémon card generator, mainly made with React, I did it to put my studies of React into practice. Explaining a little about the project: I'm using the PokéApi to get the informations about the pokémon, the entire struct was built in React, dividing the project into blocks/components. You can search the pokémon by it's number or name, also you can use the buttons to change to the previous or next.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
