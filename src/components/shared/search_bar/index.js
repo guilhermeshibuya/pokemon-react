@@ -13,7 +13,7 @@ const SearchBar = (props) => {
     });
 
     const handleSubmit = (e) => {
-        props.renderPokemon(fields.search_pokemon.toLocaleLowerCase());
+        props.renderPokemon(fields.search_pokemon.toLowerCase());
         e.preventDefault();
         setFields(initialState);
     }
